@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply font-sans bg-gray-100;
+}
+
+.container {
+	@apply mx-auto max-w-7xl;
+}
+
+.header {
+	@apply bg-white h-20 flex items-center shadow justify-between px-4 border-b;
+}
+
+.logo {
+	@apply text-2xl font-bold;
+}
+
+.page-body {
+	@apply py-6;
+}
+
+.page-title {
+	@apply text-2xl font-bold;
+}
+
+/* Post */
+.card {
+	@apply bg-white shadow-md rounded-lg overflow-hidden px-4 py-6 border;
+}
+
+.card .title {
+    @apply text-xl font-medium mb-4;
+}
+
+.card .content {
+    @apply text-gray-700;
+}
